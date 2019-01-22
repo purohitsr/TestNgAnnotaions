@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleSuite]">
+  <test name="SampleTest(failed)">
+    <classes>
+      <class name="runProgrametically.ClassB">
+        <methods>
+          <include name="testB2"/>
+        </methods>
+      </class> <!-- runProgrametically.ClassB -->
+      <class name="runProgrametically.ClassA">
+        <methods>
+          <include name="testA2"/>
+        </methods>
+      </class> <!-- runProgrametically.ClassA -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite">
+<listeners>
+<listener class-name="runfailedtest1.AnnotationTransformer"/>
+</listeners>
+<test name="My test">
+<classes>
+<class name="runfailedtest1.SampleTest"/>
+
+</classes>
+
+
+</test>
+
+</suite>

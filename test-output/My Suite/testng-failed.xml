@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My Suite]">
+  <listeners>
+    <listener class-name="runfailedtest1.AnnotationTransformer"/>
+  </listeners>
+  <test name="My test(failed)">
+    <classes>
+      <class name="runfailedtest1.SampleTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- runfailedtest1.SampleTest -->
+    </classes>
+  </test> <!-- My test(failed) -->
+</suite> <!-- Failed suite [My Suite] -->

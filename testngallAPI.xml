@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EPM ReST Services Test">
+	<parameter name="server" value="testdata/server.data" />
+	<parameter name="userlist" value="testdata/userlist.data" />	
+	<parameter name="isthinktimeenabled" value="true" />
+	<!-- EPM Stand alone tests of Linear and Non-Linear critical paths of a CAE Process with time logs enabled -->
+	<test verbose="6" name="Level One" preserve-order="true">
+        <!--<packages>
+			<package name="com.altair.epm.services.test.level0.*" />
+			<package name="com.altair.epm.services.test.level1.*" />
+		</packages> -->
+		 <classes>
+		 <!--<class name="com.altair.epm.services.test.level0.amsDataCreation" />-->
+		 <class name="com.altair.epm.services.test.util.DeployProcess.CheckServerAndODEStatus" />
+		  <class name="com.altair.epm.services.test.util.DeployProcess.GenerateProcessArchive" />
+		  <class name="com.altair.epm.services.test.util.DeployProcess.DeployProcess" />
+		  <class name="com.altair.epm.services.test.level0.EPMServicesClientTestLevel0" />
+          <class name="com.altair.epm.services.test.level1.processAPItest.EpmProcessResourceAPITesting" />
+          <class name="com.altair.epm.services.test.level1.taskAPItest.EpmTaskResourceAPITesting" />
+          <class name="com.altair.epm.services.test.level1.AdvanceSearchResourceAPITest.AdvanceSearchResourceAPITesting" />
+          <class name="com.altair.epm.services.test.level1.saveSearchResourceAPItest.saveSearchResourceAPItesting" />
+          <class name="com.altair.epm.services.test.EPMStandAlone.CAEProcess.LinearFlowCAEProcess.LinearFlowCAEProcess" />
+          <class name="com.altair.epm.services.test.EPMStandAlone.CAEProcess.NonlinearCAEProcess.NonlinearCAEProcess" />
+          
+      </classes>
+    </test>
+    </suite>

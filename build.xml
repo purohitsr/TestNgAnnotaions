@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<project name="Testng Tutorials" default="usage" basedir=".">
+<property environment = "env"/>
+<property name="ws.home" value="${basedir}"/>
+<property name="ws.jars" value="D://Automation//jars"/>
+<property name="test.dest" value="${ws.home}/build"/>
+<property name="test.source" value="${ws.home}/src"/>
+<property name="test.reportDir" value="D:/rep"/>
+
+
+<target name="clean">
+  <delete dir="${test.dest}"/>
+</target>
+<target name="init" depends="clean">
+  <mkdir dir="${test.dest}"/>
+</target>
+<target name="compile" depends="init">
+<mkdir dir="build/classes"/>
+<javac srcdir="${test.source}" destdir="${test.dest}"/>
+</target>
+</project>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="suite 1" duration-ms="20163" started-at="2019-01-22T15:01:02Z" finished-at="2019-01-22T15:01:22Z">
+    <groups>
+      <group name="group2">
+        <method signature="ParrallelTests.test2()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test2" class="runfailedtests.ParrallelTests"/>
+        <method signature="ParrallelTests.test4()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test4" class="runfailedtests.ParrallelTests"/>
+        <method signature="ParrallelTests2.test2()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test2" class="runfailedtests.ParrallelTests2"/>
+        <method signature="ParrallelTests2.test4()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test4" class="runfailedtests.ParrallelTests2"/>
+      </group> <!-- group2 -->
+      <group name="group1">
+        <method signature="ParrallelTests.test1()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test1" class="runfailedtests.ParrallelTests"/>
+        <method signature="ParrallelTests.test3()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test3" class="runfailedtests.ParrallelTests"/>
+        <method signature="ParrallelTests2.test1()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test1" class="runfailedtests.ParrallelTests2"/>
+        <method signature="ParrallelTests2.test3()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test3" class="runfailedtests.ParrallelTests2"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Sample Test" duration-ms="20163" started-at="2019-01-22T15:01:02Z" finished-at="2019-01-22T15:01:22Z">
+      <class name="runfailedtests.ParrallelTests2">
+        <test-method status="PASS" signature="test1()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test1" duration-ms="5033" started-at="2019-01-22T20:31:02Z" finished-at="2019-01-22T20:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test2" duration-ms="5010" started-at="2019-01-22T20:31:07Z" finished-at="2019-01-22T20:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test3" duration-ms="5005" started-at="2019-01-22T20:31:12Z" finished-at="2019-01-22T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:runfailedtests.ParrallelTests2@5f375618]" name="test4" duration-ms="5002" started-at="2019-01-22T20:31:17Z" finished-at="2019-01-22T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- runfailedtests.ParrallelTests2 -->
+      <class name="runfailedtests.ParrallelTests">
+        <test-method status="PASS" signature="test1()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test1" duration-ms="5057" started-at="2019-01-22T20:31:02Z" finished-at="2019-01-22T20:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test2" duration-ms="5005" started-at="2019-01-22T20:31:07Z" finished-at="2019-01-22T20:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test3" duration-ms="5008" started-at="2019-01-22T20:31:12Z" finished-at="2019-01-22T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:runfailedtests.ParrallelTests@7ac7a4e4]" name="test4" duration-ms="5009" started-at="2019-01-22T20:31:17Z" finished-at="2019-01-22T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- runfailedtests.ParrallelTests -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- suite 1 -->
+</testng-results>
