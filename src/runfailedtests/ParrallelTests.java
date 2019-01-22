@@ -32,5 +32,7 @@ public class ParrallelTests {
 		System.out.println("In test4");
 		Thread.sleep(5000);
 		System.out.println("test4 ends");
+		System.out.println("test4 ends");
+		
 	}
 }
